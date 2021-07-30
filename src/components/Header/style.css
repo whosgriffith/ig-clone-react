@@ -1,0 +1,24 @@
+.header {
+    list-style: none;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 0.8px solid #DBDBDB;
+    padding-bottom: 7px;
+}
+
+.header__icon {
+    width: 27px;
+}
+
+.header__icon--profile {
+    border-radius: 50px;
+}
+
+.menu__element {
+    display: inline;
+}
+
+.menu__element:first-child {
+    margin-right: 15px;
+}

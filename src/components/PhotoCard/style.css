@@ -1,0 +1,77 @@
+.photoCard {
+    background-color: #FFFFFF;
+    border: 0.8px solid #DBDBDB;
+    border-radius: 5px;
+    margin: 50px auto;
+    max-width: 600px;
+}
+
+/*?  PROFILE PART  */
+.photoCard--profile {
+    display: flex;
+    padding: 11px 9px;
+    align-items: center;
+}
+
+.photoCard--profile--image {
+    height: 40px;
+    border-radius: 500px;
+}
+
+.photoCard--profile--username {
+    padding-left: 13px;
+    font-weight: 600;
+}
+
+/*?  IMAGE PART */
+.photoCard--image {
+    width: 100%;    
+    max-height: 500px;
+}
+
+/*?  BUTTONS PART  */
+.photoCard--information {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 10px;
+}
+
+.photoCard--button {
+    border: none;
+    background: none;
+    overflow: hidden;
+    border-right: 12px;
+}
+
+.photoCard--button:hover {
+    cursor: pointer;
+}
+
+.likes {
+    margin-left: 10px;
+    margin-top: 4px;
+    font-weight: 600;
+}
+
+
+/*?  COMMENTS PART  */
+.photoCard--newcomment {
+    margin-top: 10px;
+    padding: 14px;
+    border-top: 1px solid #EFEFEF;
+}
+
+.photoCard--comments-list {
+    list-style: none;
+    padding-left: 15px;
+}
+
+.comment-username {
+    margin-right: 3px;
+    font-weight: 600;
+}
+
+.photoCard--text-input {
+    border: none;
+    font-size: 15px;
+}
